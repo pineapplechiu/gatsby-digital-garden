@@ -12,7 +12,7 @@ html {
 body.light-mode {
   --main-bg: #fafafc;
   --note-bg: #ffffff;
-  --text: #1a202c;
+  --text: #296bff;
   --separator: #e2e8f0;
   --shadow: rgba(0, 0, 0, 0.1);
   --link: #3182ce;
@@ -28,17 +28,17 @@ body.light-mode {
 /************ DARK MODE **************/
 
 body.dark-mode {
-  --main-bg: #000000;
-  --note-bg: #0a0d11;
+  --main-bg: #508dfb;
+  --note-bg: #296bff;
   --text: #fafafc;
   --separator: #252525;
   --shadow: rgba(255, 255, 255, 0.1);
   --link: #3da1ff;
 
   /* References */
-  --references-bg: #17181a;
+  --references-bg: #508dfb;
   --references-bg-80: rgba(23, 24, 26, 0.8);
   --references-bg-0: rgba(23, 24, 26, 0);
-  --references-text: #8c9fbb;
+  --references-text: #ffffff;
   --references-highlight: #b3cbf0;
 }
